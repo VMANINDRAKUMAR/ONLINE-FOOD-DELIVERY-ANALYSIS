@@ -1,0 +1,17 @@
+# Project Notes
+
+The supplied brief asks for Python data analytics, cleaning/EDA, SQL/MySQL,
+Power BI or Streamlit, KPI design and business insights.
+
+The raw dataset contains 100,000 orders and 25 features.
+
+The raw data includes missing values and invalid/inconsistent values.
+The cleaning pipeline handles missing categorical values by mode, selected
+numeric values by median, caps domain values, fixes discount/order-value
+logic, handles cancellation reasons, and creates analytical fields.
+
+Derived fields include Order_Hour, Order_Day_Type, Age_Group, Profit_Amount,
+Delivery_Performance, Discount_Pct and Month.
+
+The dashboard is implemented in Streamlit, which is one of the dashboard
+options specified in the project brief.
